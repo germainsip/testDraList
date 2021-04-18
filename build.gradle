@@ -27,4 +27,4 @@ test {
     useJUnitPlatform()
 }
 
-mainClassName = "org.example.ListOrganizer"
+mainClassName = "org.example.ListOrganizerGe"
