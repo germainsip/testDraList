@@ -21,10 +21,12 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
     compile 'org.apache.poi:poi:5.0.0'
     implementation 'org.apache.poi:poi-ooxml:5.0.0'
+
+    implementation 'com.jfoenix:jfoenix:9.0.10'
 }
 
 test {
     useJUnitPlatform()
 }
 
-mainClassName = "org.example.ListOrganizerGe"
+mainClassName = "org.example.MaList"
